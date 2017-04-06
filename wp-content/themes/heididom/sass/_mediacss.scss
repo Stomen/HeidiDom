@@ -1,0 +1,59 @@
+@media screen and (max-width: 1024px){
+html{
+  body{
+    .wrapper{
+      header{
+        .center{
+          .main-photo{
+            .search-and-social{
+              .burger-menu{
+                display: block;
+              }
+            }
+            nav{
+              display: none;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+}
+@media screen and (max-width: 425px){
+  html{
+    body{
+      .wrapper{
+        header{
+          .center{
+            .main-photo{
+              box-shadow: none;
+              .search-and-social{
+                .search-item{
+                  margin: 15px auto;
+                }
+              }
+              a{
+                .logo{
+                  top: 130px;
+                }
+              }
+              .right-title{
+                margin-top: 50%;
+              }
+            }
+          }
+        }
+        main{
+          .heididom-block{
+            .center{
+              .heididom-block-photo{
+               height: 200px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
